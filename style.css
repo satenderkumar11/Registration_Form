@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    font-family: 'Rajdhani', sans-serif;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/wall-21534_1920.jpg);
+}
+
+header {
+    background-color: rgba(2, 5, 47, 0.842);
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+    padding: 15px;
+}
+
+section {
+    border: 10px solid grey;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    /* height: 400px;
+    width: 700px; */
+    width: 700px;
+    padding: 10px;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(to right, rgb(58, 202, 1), rgb(225, 252, 190));
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(0, 60, 255), rgb(11, 235, 251));
+}
+
+p {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h1.now {
+    margin: 15px;
+}
